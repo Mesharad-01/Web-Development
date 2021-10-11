@@ -1,0 +1,177 @@
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 4%;
+  margin-right:4%  ;
+  /*background-image: url("images/sportbg1.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  */
+  background-color:solid white;
+  border: 2px solid   #f15729;  ;
+}
+
+.mynavmain{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  align-items: baseline;
+  flex-direction:row;
+}
+
+.mylogo {
+min-width: 125px;
+max-height: 125px;
+}
+
+
+
+.mynav ul {
+        list-style-type: none;
+        margin:0;
+        padding: 0;
+      }
+      
+.mynav li {
+  border-right: 1px solid #bbb;
+  display: inline;
+  float:right;
+} 
+.mynav li a {
+        display: block;
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        padding: 14px 16px;
+      }  
+.mynav li a.active {
+        background-color: #f15729;
+        color: white;
+      }
+      
+.mynav li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+        display:block;      }
+
+
+
+.maingrid{
+  padding : 2% 2% 2% 2%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  background-color:white;
+}
+.maingridrow{
+  border-left: solid black;
+  border-right:solid black;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  background-color:white;
+}
+.maingridimageicon
+{
+  margin: 3% 1% 3% 1%;
+  height: 125px;
+  width:160px;
+  min-height:112px;
+  min-width:112px;
+  border: 2px solid #f15729;
+  background-color: white;
+}
+.maingridimage
+{
+  height: 100%;
+  width: 100%;
+}
+.maingridimage:hover{
+  height: 125%;
+  width: 125%;
+}
+
+.info{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:center; 
+  margin-top: 15vh;
+  margin-bottom: 0;
+  background-color:rgb(192, 189, 189)
+}
+
+.infoheadingicon{
+  margin: 5vh 5vh;
+  padding: 0 20px 20px 20px;
+  background-color: #f15729;
+  width:100%;
+  height:5%;
+  text-align: center;
+}
+.infoimage{
+  height:50vh;
+  width:100%;
+}
+.heading{
+  text-align: center; background-color: #f15729;
+  margin :0 0 0 0;
+}
+
+.infodetails{
+  background-color: #f15729;
+  height:50%;
+  width:50%;
+}
+
+.infodetails .myform {
+  overflow: hidden;
+  background-color:aqua;
+  height: 35vh;
+  width: 100%;
+}
+.btn{
+    transform: translateX(-150%);
+    width: 15vw;
+    height:5vh;
+    border: none;
+    outline: none;
+    background: rgb(55, 235, 49);
+    cursor:pointer;
+    font-size: 20px;    
+    color: aliceblue;
+    margin-left: 100%;
+}
+
+
+input[type="text"],
+input[type="number"]
+{
+  display: block;
+  box-sizing: border-box;
+  padding:4px;
+  margin:0 0 0 10%;
+  width:30vw;
+  height:4vh;
+  border:none;
+  transition: 0.2s ease;
+  box-shadow: 0 8px 16px rgba(0,0,0,.3);
+}
+
+
+.footer{
+  padding-top:20vh;
+  margin-top:5%;
+  color:#000;
+  background-color:#f15729;
+  height:25vh;
+  width:100%;
+}
+.copyright{
+  text-align:center;
+  margin-bottom: 0px;
+}
